@@ -5,7 +5,7 @@
 "dataUrl": "TesteGirarPecaWebGL.data.unityweb",
 "wasmCodeUrl": "TesteGirarPecaWebGL.wasm",
 "wasmFrameworkUrl": "TesteGirarPecaWebGL.wasm.framework.unityweb",
-"graphicsAPI": ["WebGL 1.0"],
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
 "splashScreenStyle": "Light",
 "backgroundColor": "#828080",
