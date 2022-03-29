@@ -3,7 +3,7 @@
 "productName": "TestePecaGirando",
 "productVersion": "0.1",
 "dataUrl": "TesteGirarPecaWebGL.data.unityweb",
-"wasmCodeUrl": "TesteGirarPecaWebGL.wasm.code.unityweb",
+"wasmCodeUrl": "TesteGirarPecaWebGL.wasm",
 "wasmFrameworkUrl": "TesteGirarPecaWebGL.wasm.framework.unityweb",
 "graphicsAPI": ["WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
