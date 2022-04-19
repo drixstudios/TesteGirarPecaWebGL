@@ -16,7 +16,12 @@
           <div id="unity-progress-bar-full"></div>
         </div>
       </div>
-      <div id="unity-warning"> </div>      
+      <div id="unity-warning"> </div>
+      <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">TesteUnity2019</div>
+      </div>
     </div>
     <script>
       var container = document.querySelector("#unity-container");
@@ -90,8 +95,12 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "100%";
-        canvas.style.height = "100%";
+        //canvas.style.width = "100%";
+        //canvas.style.height = "100%";
+
+        document.getElementsById('unity-container').style.width = innerWidth + 'px';
+        document.getElementsById('unity-container').style.height = innerHeight + 'px';
+
       }
 
       loadingBar.style.display = "block";
